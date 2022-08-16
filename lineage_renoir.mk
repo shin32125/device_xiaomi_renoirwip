@@ -23,4 +23,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+TARGET_USES_BLUR := true
+WITH_FOD_ANIMATIONS := true
+WITH_GAPPS := true
+
 BUILD_FINGERPRINT := Xiaomi/renoir_global/renoir:11/RKQ1.201112.002/V12.5.7.0.RKIMIXM:user/test-keys
