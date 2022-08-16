@@ -7,6 +7,9 @@
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+PRODUCT_BOARD_PLATFORM := sm7350
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
